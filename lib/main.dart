@@ -2,6 +2,8 @@
 import 'package:flutter/material.dart';
 import 'package:mlmodel/authentication.dart';
 import 'package:mlmodel/home.dart';
+import 'applisttest.dart';
+import 'package:mlmodel/messages.dart';
 
 void main() {
   runApp(MaterialApp(
@@ -10,6 +12,8 @@ void main() {
     routes: {
       'authentication': (context) => Authentication(),
       'home': (context) => home(),
+      'applisttest': (context) => applisttest(),
+      'inboxcontent': (context) => inboxcontent(),
     },
   ));
 }
